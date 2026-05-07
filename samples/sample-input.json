@@ -1,0 +1,22 @@
+{
+  "product": {
+    "repository": "gui-os-design-guideline-dictionary",
+    "title": "GUI・OS別デザインガイドライン辞書"
+  },
+  "items": [
+    {
+      "id": "gui-os-design-guideline-dictionary-happy",
+      "title": "GUI・OS別デザインガイドライン辞書 happy",
+      "status": "ready",
+      "tags": [
+        "dictionary",
+        "closed-alpha"
+      ],
+      "platform": "Android / Windows",
+      "component": "Navigation",
+      "principle": "戻る操作と階層を一致させる",
+      "tradeoff": "高速入力画面ではショートカットも併用",
+      "sourceReference": "公式ガイド確認予定"
+    }
+  ]
+}

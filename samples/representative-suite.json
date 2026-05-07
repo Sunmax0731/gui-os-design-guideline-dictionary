@@ -1,0 +1,126 @@
+[
+  {
+    "id": "happy-path",
+    "purpose": "GUI・OS別デザインガイドライン辞書 の正常入力を検証する",
+    "items": [
+      {
+        "id": "gui-os-design-guideline-dictionary-happy",
+        "title": "GUI・OS別デザインガイドライン辞書 happy",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "platform": "Android / Windows",
+        "component": "Navigation",
+        "principle": "戻る操作と階層を一致させる",
+        "tradeoff": "高速入力画面ではショートカットも併用",
+        "sourceReference": "公式ガイド確認予定"
+      }
+    ],
+    "expected": {
+      "result": "passed",
+      "errors": 0,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "missing-required",
+    "purpose": "必須項目不足を error として検出する",
+    "items": [
+      {
+        "id": "gui-os-design-guideline-dictionary-missing",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "platform": "Android / Windows",
+        "component": "Navigation",
+        "principle": "戻る操作と階層を一致させる",
+        "tradeoff": "高速入力画面ではショートカットも併用",
+        "sourceReference": "公式ガイド確認予定"
+      }
+    ],
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 0
+    }
+  },
+  {
+    "id": "warning",
+    "purpose": "推奨項目不足を warning として検出する",
+    "items": [
+      {
+        "id": "gui-os-design-guideline-dictionary-warning",
+        "title": "GUI・OS別デザインガイドライン辞書 warning",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "platform": "Android / Windows",
+        "component": "Navigation",
+        "principle": "戻る操作と階層を一致させる",
+        "tradeoff": "高速入力画面ではショートカットも併用"
+      }
+    ],
+    "expected": {
+      "result": "warning",
+      "errors": 0,
+      "warnings": 1
+    }
+  },
+  {
+    "id": "mixed-batch",
+    "purpose": "正常、必須不足、警告を同一バッチで集計する",
+    "items": [
+      {
+        "id": "gui-os-design-guideline-dictionary-happy",
+        "title": "GUI・OS別デザインガイドライン辞書 happy",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "platform": "Android / Windows",
+        "component": "Navigation",
+        "principle": "戻る操作と階層を一致させる",
+        "tradeoff": "高速入力画面ではショートカットも併用",
+        "sourceReference": "公式ガイド確認予定"
+      },
+      {
+        "id": "gui-os-design-guideline-dictionary-missing",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "platform": "Android / Windows",
+        "component": "Navigation",
+        "principle": "戻る操作と階層を一致させる",
+        "tradeoff": "高速入力画面ではショートカットも併用",
+        "sourceReference": "公式ガイド確認予定"
+      },
+      {
+        "id": "gui-os-design-guideline-dictionary-warning",
+        "title": "GUI・OS別デザインガイドライン辞書 warning",
+        "status": "ready",
+        "tags": [
+          "dictionary",
+          "closed-alpha"
+        ],
+        "platform": "Android / Windows",
+        "component": "Navigation",
+        "principle": "戻る操作と階層を一致させる",
+        "tradeoff": "高速入力画面ではショートカットも併用"
+      }
+    ],
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 1
+    }
+  }
+]

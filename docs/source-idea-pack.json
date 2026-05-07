@@ -1,0 +1,52 @@
+{
+  "rank": 85,
+  "domain": "Dictionary",
+  "ideaNo": 4,
+  "ideaName": "GUI・OS別デザインガイドライン辞書",
+  "repository": "gui-os-design-guideline-dictionary",
+  "publish": "GitHub Pages / GitHub Release",
+  "createdIdeaLookup": {
+    "exactPathFirst": "D:/AI/Dictionary/created_idea_004_gui-os-design-guideline-dictionary",
+    "exactPathExists": true,
+    "fallbackSearched": false,
+    "fallbackResults": [],
+    "notes": "完全一致の created_idea と ZIP を使用した。"
+  },
+  "zipLookup": {
+    "exactZip": "D:/AI/Dictionary/created_idea_004_gui-os-design-guideline-dictionary/idea_004_gui-os-design-guideline-dictionary.zip",
+    "exactZipExists": true,
+    "requiredFiles": [
+      "metadata.json",
+      "README.md",
+      "01_REQUIREMENTS.md",
+      "02_SPECIFICATION.md",
+      "03_DESIGN.md",
+      "04_IMPLEMENTATION_PLAN.md",
+      "05_TEST_PLAN.md",
+      "06_RELEASE_CHECKLIST.md"
+    ],
+    "missingRequiredFiles": []
+  },
+  "zipMetadata": {
+    "domain": "Dictionary",
+    "no": 4,
+    "platform": "Dictionary",
+    "field": "UI/UXガイドライン辞書",
+    "idea": "GUI・OS別デザインガイドライン辞書",
+    "overview": "Webページ、ネイティブアプリ、Windows、Android、その他アプリのデザインガイドラインを辞書的に学べる。レイアウト、入力、ナビゲーション、アクセシビリティ、コンポーネント、OS別慣習、歴史的背景、関連ガイドライン、トレードオフをタグで整理する。",
+    "problem": "UI設計では、OSやプラットフォームごとの慣習、アクセシビリティ、実装都合が混ざり、どのガイドラインを優先すべきか判断しづらい。",
+    "similar": "Material Design, Microsoft Fluent Design, Apple Human Interface Guidelines, WCAG, Nielsen Norman Group",
+    "diff": "Web、Windows、Android、制作ツール系UIを横断し、場面別に守るべき慣習と崩してよい理由を学べる。",
+    "repositoryName": "gui-os-design-guideline-dictionary",
+    "repositoryTitle": "gui-os-design-guideline-dictionary",
+    "zipFile": "idea_004_gui-os-design-guideline-dictionary.zip"
+  },
+  "metadataRepositoryMatches": true,
+  "metadataZipMatches": true,
+  "initialRepositoryReadme": {
+    "existedBeforeCreation": false,
+    "note": "正式 repo が存在しなかったため README.md は存在しないと記録し、domain docs と created_idea ZIP を根拠に作成した。"
+  },
+  "mojibakePolicy": "ZIP本文や既存Markdownは丸写しせず、PICKUP行、metadata、domain docsから正式docsを再構成する。",
+  "unstableEvidencePolicy": "ZIPサイズ、生成時刻、絶対一時パスはQCDS固定根拠に使わない。"
+}

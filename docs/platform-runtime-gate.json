@@ -1,0 +1,13 @@
+{
+  "product": "gui-os-design-guideline-dictionary",
+  "title": "GUI・OS別デザインガイドライン辞書",
+  "domain": "Dictionary",
+  "ideaNo": 4,
+  "platformType": "browser-web",
+  "expectedPublicTarget": "GitHub Pages / GitHub Release",
+  "browser": {
+    "evidence": "dist/web-smoke-result.json"
+  },
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
